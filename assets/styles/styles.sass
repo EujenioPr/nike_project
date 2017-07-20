@@ -1,0 +1,1233 @@
+$amount: 0.7
+
+html, body
+    width: 100%
+    min-height: 100%
+    height: 100%
+    max-height: auto
+    margin: 0
+    padding: 0
+    font-family: 'MyriadProRegular'
+
+h1, h2, h3, h4, h5, p, a
+    margin: 0
+    padding: 0
+    text-decoration: none
+    font-size: normal
+
+.body
+    // background-color: transparentize(pink, $amount)
+    width: 100%
+    height: 100%
+    overflow-x: hidden
+
+.block-1, .block-2, .block-3, .block-4, .block-5, .block-6, .block-7, .block-8, .block-9
+    display: block
+    width: 100%
+    height: 80%
+
+.block-1
+    display: block
+    position: relative
+    width: 100%
+    height: 120%
+    // background-color: transparentize(pink, $amount)
+    background:
+        image: url('../images/header-bg.png')
+        repeat: no-repeat
+        position: center
+        size: cover
+    .description
+        width: 50%
+        height: auto
+        position: absolute
+        bottom: 15%
+        left: 25%
+        font-size: 0.8em
+        color: #ececec
+        font-family: 'MyriadProSemiboldItalic'
+        // background-color: transparentize(pink, $amount)
+        @media only screen and (max-width: 580px)
+            width: 80%
+            left: 10%
+
+.page-title
+    // width: 100%
+    width: calc(100% - 20%)
+    height: 60px
+    margin-top: 30px
+    float: left
+    // background-color: transparentize(pink, $amount)
+    padding: 0 10%
+    text-align: center
+    @media only screen and (max-width: 634px)
+        width: 100%
+
+
+    .nike-logo
+        display: block
+        width: 100px
+        height: 100px
+        margin-top: -20px
+        float: left
+        background:
+            image: url('../images/nike-logo.png')
+            repeat: no-repeat
+            size: contain
+            position: center
+        @media only screen and (max-width: 962px)
+            width: 80px
+            height: 80px
+            margin-top: -10px
+        @media only screen and (max-width: 892px)
+            width: 70px
+            height: 70px
+            margin-top: -5px
+        @media only screen and (max-width: 788px)
+            width: 60px
+            height: 60px
+            margin-top: 0px
+        @media only screen and (max-width: 510px)
+            width: 50px
+            height: 50px
+            margin-top: 5px
+    span
+        // font-size: 26px
+        font-size: 2em
+        font-family: 'MyriadProBoldItalic'
+        color: white
+        line-height: 60px
+        margin-right: 100px
+        @media only screen and (max-width: 962px)
+            font-size: 1.8em
+        @media only screen and (max-width: 892px)
+            font-size: 1.5em
+        @media only screen and (max-width: 788px)
+            font-size: 1.2em
+        @media only screen and (max-width: 510px)
+            line-height: 20px
+
+.block-2
+    // background-color: #000311
+    background: linear-gradient(to right, #101420, #141823)
+    height: 120%
+
+.blocker-top
+    // display: none
+    position: relative
+    top: -200px
+    width: 0
+    height: 0
+    border: 10px solid transparent
+    border-top: 0px solid transparent
+    border-left: 3348px solid transparent
+    border-right: 0px solid transparent
+    border-bottom: 200px solid #131722
+
+.speed-destroyer
+    width: 100%
+    height: calc(112% - 0px)
+    margin-top: -201px
+    position: relative
+    z-index: 1
+    background:
+        image: url('../images/block-2.jpg')
+        repeat: no-repeat
+        position: center 200px
+        size: cover
+    // -webkit-clip-path: polygon(0 0, 100% 0%, 100% 90%, 0% 100%)
+    // clip-path: polygon(0 0, 100% 0%, 100% 90%, 0% 100%)
+    .sd-types
+        color: white
+        display: flex
+        justify-content: space-around
+        // background-color: transparentize(yellow, $amount)
+        padding-top: 50px
+        .sd-type-1, .sd-type-2, .sd-type-3
+            // display: flex
+            // flex-wrap: nowrap
+            // align-content: center
+            width: 20%
+            height: 100px
+            // background-color: transparentize(pink, $amount)
+            text-align: center
+            strong
+                display: block
+                font-family: 'MyriadProBold'
+                font-size: 18px
+                &::after
+                    content: ''
+                    display: block
+                    width: 20%
+                    height: 0
+                    margin: 0 auto
+                    margin-top: 15px
+                    margin-bottom: 15px
+                    border-bottom: 2px solid #DAC89F
+            span
+                font-size: 13px
+                color: #767779
+    .sd-title
+        width: 100%
+        height: 10%
+        position: absolute
+        top: 46%
+        left: 0
+        // background-color: transparentize(pink, $amount)
+        text-align: center
+        h1
+            color: white
+            font-family: 'MyriadProBoldItalic'
+            font-size: 5em
+        @media only screen and (max-width: 700px)
+            h1
+                font-size: 3.5em
+        @media only screen and (max-width: 476px)
+            h1
+                font-size: 2.5em
+
+        .sd-title-after
+            color: #efefef
+            width: 30%
+            margin: 0 auto
+            padding-top: 3%
+            @media only screen and (max-width: 665px)
+                width: 70%
+            @media only screen and (max-width: 417px)
+                width: 90%
+
+.block-3
+    background-color: #E6E6E6
+    position: relative
+    height: 100%
+    padding-bottom: 6%
+    .backword
+        width: 100%
+        height: 100%
+        position: absolute
+        text-align: center
+        h1
+            display: block
+            position: absolute
+            top: 30%
+            left: 0
+            right: 0
+            font-family: "MyriadProSemibold"
+            font-size: 10em
+            color: #DBDCDB
+
+
+    .blocker-top
+        top: -104px
+        border-bottom: 200px solid #E6E6E6
+        z-index: 20
+
+    .sd-dope-man
+        width: 100%
+        height: 150px
+        position: absolute
+        top: -20px
+        left: 0
+        z-index: 100
+        div
+            .dope-man
+                // position: relative
+                width: 250px
+                height: 150px
+                margin: 0 auto
+                // background-color: rgba(255, 192, 203, 0.3)
+                background:
+                    image: url('../images/dope-man.jpg')
+                    repeat: no-repeat
+                    position: center
+                    size: cover
+                // z-index: 100
+                box-shadow: 0px 6px 70px -2px #131212
+
+    .nike-shoes
+        width: 100%
+        height: 50%
+        position: absolute
+        top: 30%
+        left: 0
+        // background-color: transparentize(pink, $amount)
+        display: flex
+        justify-content: space-around
+        // background-image: url('../images/nike-shoe-1-remastered.png')
+
+        .nike-shoe-1, .nike-shoe-2, .nike-shoe-3, .nike-shoe-4
+            display: block
+            width: 20%
+            height: calc(100% - 100px)
+            // background-color: transparentize(blue, $amount)
+            .shoe-1, .shoe-2, .shoe-3, .shoe-4
+                width: 100%
+                height: 100%
+            .shoe-1-desc, .shoe-2-desc, .shoe-3-desc, .shoe-4-desc
+                margin-left: 20%
+                strong
+                    display: block
+                    font-family: 'MyriadProBold'
+                    font-size: 17px
+                    margin-bottom: 2%
+                span
+                    font-size: 14px
+                    display: block
+                    color: #CBCBCB
+                    margin-bottom: 2%
+                i
+                    display: block
+                    font-family: 'MyriadProSemiBold'
+                    font-style: normal
+                    color: #D8B054
+                @media only screen and (max-width: 665px)
+                    strong
+                        font-size: 15px
+                @media only screen and (max-width: 500px)
+                    strong
+                        font-size: 12px
+                    span
+                        font-size: 8px
+
+
+            .shoe-4-desc
+                margin-left: 25%
+
+        .nike-shoe-1
+            margin-top: 4%
+            .shoe-1
+                background:
+                    image: url('../images/nike-shoe-1-remastered.png')
+                    size: contain
+                    position: center
+                    repeat: no-repeat
+        .nike-shoe-2
+            margin-top: 2%
+            .shoe-2
+                background:
+                    image: url('../images/nike-shoe-2-remastered.png')
+                    size: contain
+                    position: center
+                    repeat: no-repeat
+        .nike-shoe-3
+            margin-top: 0%
+            .shoe-3
+                background:
+                    image: url('../images/nike-shoe-3-remastered.png')
+                    size: contain
+                    position: center
+                    repeat: no-repeat
+        .nike-shoe-4
+            margin-top: -2%
+            .shoe-4
+                background:
+                    image: url('../images/nike-shoe-4-remastered.png')
+                    size: contain
+                    position: center
+                    repeat: no-repeat
+
+
+.block-4
+    height: 100%
+    // background-color: transparentize(yellow, $amount)
+    margin-top: -6%
+    background-color: #E6E6E6
+    .nike-apparel
+        width: 100%
+        height: 100%
+        background:
+            image: url('../images/nike-apparel.jpg')
+            repeat: no-repeat
+            size: cover
+            position: center
+        clip-path: polygon(0 12%, 100% 0, 100% 88%, 0% 100%)
+
+        .apparel-right-panel
+            width: 60%
+            height: 100%
+            float: right
+            // background-color: transparentize(pink, $amount)
+            @media only screen and (max-width: 900px)
+                width: 80%
+            @media only screen and (max-width: 679px)
+                width: 100%
+
+            .apparel-logo-wrapper
+                width: 100%
+                height: 100px
+                margin-top: 10%
+                // position: relative
+                // top: 10%
+                .apparel-logo
+                    width: 20%
+                    height: 100px
+                    float: right
+                    margin-right: 10%
+                    // position: absolute
+                    // top: 0
+                    // right: 10%
+                    background:
+                        image: url('../images/nfl-logo.png')
+                        repeat: no-repeat
+                        position: center
+                        size: contain
+                    @media only screen and (max-width: 665px)
+                        width: 15%
+                        height: 75px
+            .apparel-desc
+                // background: rgba(255, 192, 203, 0.67)
+                width: calc(100% - 10%)
+                height: 27%
+                padding: 0 10% 0 0
+                padding-top: 1%
+                h1
+                    font-size: 3.5em
+                    font-family: 'MyriadProBoldItalic'
+                    color: white
+                    text-align: right
+                span
+                    display: block
+                    color: white
+                    font-family: 'MyriadProRegular'
+                    font-size: 0.8em
+                    width: 83%
+                    float: right
+                    text-align: right
+                @media only screen and (max-width: 665px)
+                    h1
+                        font-size: 3em
+                    span
+                        font-size: 0.7em
+
+            .apparel-trailers
+                width: calc(100% - 10%)
+                padding-right: 10%
+                // height: calc(100% - 100px - 28% - 10%)
+                // background-color: transparentize(pink, $amount)
+                display: flex
+                justify-content: flex-end
+                .trailer-title, .trailer-1, .trailer-2
+                    width: 30%
+                    height: 120px
+                    // background-color: transparentize(green, $amount)
+                    @media only screen and (max-width: 665px)
+                        width: 25%
+                        height: 80px
+                .trailer-title
+                    width: 25%
+                    margin-right: 1%
+                    text-align: right
+                    color: white
+                    strong
+                        display: block
+                        height: 50%
+                        line-height: 4
+                        font-size: 24px
+                        font-family: 'MyriadProBoldItalic'
+                    span
+                        display: block
+                        color: #BEAA9E
+                        font-family: 'MyriadProSemiBoldItalic'
+                    @media only screen and (max-width: 665px)
+                        strong
+                            font-size: 18px
+                        span
+                            font-size: 12px
+                    @media only screen and (max-width: 547px)
+                        width: 32%
+
+                .trailer-1
+                    clip-path: polygon(17% 0, 100% 0, 83% 100%, 0 100%)
+                    // background-color: transparentize(pink, $amount)
+                    margin-right: 0
+                    background:
+                        image: url('../images/trailer-1.jpg')
+                        repeat: no-repeat
+                        position: center
+                        size: cover
+
+                .trailer-2
+                    clip-path: polygon(17% 0, 100% 0, 83% 100%, 0 100%)
+                    // background-color: transparentize(blue, $amount)
+                    margin-right: 0
+                    background:
+                        image: url('../images/trailer-2.jpg')
+                        repeat: no-repeat
+                        position: center
+                        size: cover
+
+.block-5
+    margin-top: -6%
+    height: 106%
+    // background-color: transparentize(orange, $amount)
+    .left-panel
+        width: 20%
+        min-width: 115px
+        height: 100%
+        float: left
+        background-color: white
+        @media only screen and (max-width: 679px)
+            height: 100%
+            margin-top: -6%
+            padding-top: 6%
+
+        .filter-1
+            width: 70%
+            height: 40%
+            margin: 0 auto
+            // background-color: transparentize(pink, $amount)
+            margin-top: 39%
+
+            .stuff-filter
+                strong
+                    display: block
+                    font-family: 'MyriadProRegular'
+                    font-size: 20px
+                    border-bottom: 1px solid #F7F7F7
+                    padding: 10px 0
+                    margin-bottom: 10px
+                span
+                    float: left
+                    display: block
+                    width: 100%
+                    height: calc(100% - 46px - 89%)
+                    font-size: 16px
+                    color: #565656
+                    &:hover
+                        cursor: pointer
+                        text-decoration: underline
+
+                @media only screen and (max-width: 790px)
+                    strong
+                        font-size: 18px
+                    span
+                        font-size: 14px
+                @media only screen and (max-width: 599px)
+                    strong
+                        font-size: 15px
+                    span
+                        font-size: 13px
+
+        .filter-2
+            width: 70%
+            height: 40%
+            margin: 0 auto
+            // background-color: transparentize(orange, $amount)
+            margin-top: 5%
+
+            .human-filter
+                strong
+                    display: block
+                    font-family: 'MyriadProRegular'
+                    font-size: 20px
+                    border-bottom: 1px solid #F7F7F7
+                    padding: 10px 0
+                    margin-bottom: 10px
+                span
+                    font-size: 15px
+
+                ul
+                    padding-left: 15px
+                    li
+                        list-style-type: none
+                        font-size: 13px
+                @media only screen and (max-width: 790px)
+                    strong
+                        font-size: 18px
+
+                @media only screen and (max-width: 599px)
+                    strong
+                        font-size: 15px
+
+    .right-panel
+        width: 80%
+        height: 120%
+        float: left
+        margin-top: -20%
+        padding-top: 14%
+        background-color: #F6F6F6
+        @media only screen and (max-width: 591px)
+            width: calc(100% - 115px)
+
+        .stuff-1, .stuff-2, .stuff-3
+            width: 33.3333%
+            height: calc(100% - 0%)
+            display: inline-block
+            float: left
+
+        .stuff-1
+            // background-color: transparentize(pink, $amount)
+            .product-1
+                width: 100%
+                height: 70%
+                margin-top: 42%
+                // background-color: transparentize(pink, $amount)
+
+                .product-img
+                    width: 90%
+                    height: 300px
+                    margin: 0 auto
+                    margin-bottom: 4%
+                    background:
+                        image: url('../images/nike-product-1.png')
+                        repeat: no-repeat
+                        position: center
+                        size: contain
+                    transition: transform 250ms ease-in-out
+                    &:hover
+                        transform: scale(1.2)
+                        cursor: pointer
+
+                .product-desc
+                    width: 90%
+                    margin: 0 auto
+                    padding-left: 20%
+                    strong
+                        display: block
+                        font-family: 'MyriadProBold'
+                        font-size: 18px
+                        margin-bottom: 2%
+                    span
+                        display: block
+                        color: #ADAAAA
+                        font-size: 14px
+                        margin-bottom: 2%
+                        font-family: 'MyriadProSemiBold'
+                    i
+                        font-style: normal
+                        color: #D7AF49
+                    @media only screen and (max-width: 665px)
+                        strong
+                            font-size: 14px
+                        span
+                            font-size: 11px
+
+
+        .stuff-2
+            // background-color: transparentize(orange, $amount)
+            .product-2
+                width: 100%
+                height: 70%
+                margin-top: 32%
+                // background-color: transparentize(orange, $amount)
+
+                .product-img
+                    width: 90%
+                    height: 300px
+                    margin: 0 auto
+                    margin-bottom: 4%
+                    background:
+                        image: url('../images/nike-product-2.png')
+                        repeat: no-repeat
+                        position: center
+                        size: 70%
+                    transition: transform 250ms ease-in-out
+                    &:hover
+                        transform: scale(1.2)
+                        cursor: pointer
+
+                .product-desc
+                    width: 90%
+                    margin:  0 auto
+                    padding-left: 20%
+                    strong
+                        display: block
+                        font-family: 'MyriadProBold'
+                        font-size: 18px
+                        margin-bottom: 2%
+                    span
+                        display: block
+                        color: #ADAAAA
+                        font-size: 14px
+                        margin-bottom: 2%
+                        font-family: 'MyriadProSemiBold'
+                    i
+                        font-style: normal
+                        color: #D7AF49
+                    @media only screen and (max-width: 665px)
+                        strong
+                            font-size: 14px
+                        span
+                            font-size: 11px
+
+        .stuff-3
+            // background-color: transparentize(red, $amount)
+            .product-3
+                width: 100%
+                height: 70%
+                margin-top: 22%
+                // background-color: transparentize(red, $amount)
+
+                .product-img
+                    width: 90%
+                    height: 300px
+                    margin: 0 auto
+                    margin-bottom: 4%
+                    background:
+                        image: url('../images/nike-product-3.png')
+                        repeat: no-repeat
+                        position: center
+                        size: contain
+                    transition: transform 250ms ease-in-out
+                    &:hover
+                        transform: scale(1.2)
+                        cursor: pointer
+
+                .product-desc
+                    width: 90%
+                    margin:  0 auto
+                    padding-left: 20%
+                    strong
+                        display: block
+                        font-family: 'MyriadProBold'
+                        font-size: 18px
+                        margin-bottom: 2%
+                    span
+                        display: block
+                        color: #ADAAAA
+                        font-size: 14px
+                        margin-bottom: 2%
+                        font-family: 'MyriadProSemiBold'
+                    i
+                        font-style: normal
+                        color: #D7AF49
+                    @media only screen and (max-width: 665px)
+                        strong
+                            font-size: 14px
+                        span
+                            font-size: 11px
+
+
+.block-6
+    // background-color: transparentize(purple, $amount)
+    height: 100%
+    margin-top: -6%
+    z-index: 1
+    position: relative
+    .nike-superbowl
+        width: 100%
+        height: 100%
+        background:
+            image: url('../images/superbowl-hoodie.jpg')
+            repeat: no-repeat
+            position: center
+            size: cover
+        clip-path: polygon(0 12%, 100% 0, 100% 88%, 0% 100%)
+        .left-panel
+            width: 40%
+            height: 88%
+            float: left
+            position: relative
+            margin-top: -6%
+            // background-color: transparentize(pink, $amount)
+            @media only screen and (max-width: 665px)
+                margin-top: -12%
+            @media only screen and (max-width: 455px)
+                margin-top: -20%
+            @media only screen and (max-width: 405px)
+                margin-top: -25%
+            .superbowl-title
+                width: 80%
+                // background-color: pink
+                position: absolute
+                top: 30%
+                left: 10%
+                color: white
+                span
+                    display: block
+                    margin-bottom: 1%
+                    font-size: 35px
+                    font-family: Lato
+                    font-weight: 300
+                    &:nth-of-type(2)
+                        // display: flex
+                        // justify-content: center
+                        font-size: 26px
+                    i
+                        font-style: normal
+                        display: inline-block
+                        margin-right: 19%
+                strong
+                    font-family: 'MyriadProBold'
+                @media only screen and (max-width: 998px)
+                    span
+                        font-size: 25px
+                    strong
+                        // font-size: 21px
+                @media only screen and (max-width: 900px)
+                    width: 290px
+                @media only screen and (max-width: 555px)
+                    span
+                        font-size: 20px
+                        &:nth-of-type(2)
+                            font-size: 15px
+                @media only screen and (max-width: 333px)
+                    width: 200px
+                    margin-left: 50%
+                    span
+                        font-size: 15px
+                        &:nth-of-type(2)
+                            font-size: 10px
+
+
+
+
+        .right-panel
+            width: 60%
+            height: 88%
+            float: right
+            margin-top: -6%
+            // background-color: transparentize(green, $amount)
+            .superbowl-date
+                width: 100%
+                height: 150px
+                // background-color: green
+                .date
+                    width: 150px
+                    height: 150px
+                    background-color: rgba(0, 0, 0, 0.1)
+                    float: right
+                    margin-right: 10%
+                    span
+                        display: block
+                        color: rgba(255, 255, 255, 0.3)
+                        font-size: 100px
+                        font-family: Lato
+                        font-weight: 300
+                        line-height: 150px
+                        position: relative
+                        left: 10%
+                        strong
+                            color: white
+                            font-family: "MyriadProBold"
+                            font-size: 20px
+                            position: absolute
+                            left: 10%
+                @media only screen and (max-width: 665px)
+                    .date
+                        width: 100px
+                        height: 100px
+                        span
+                            font-size: 50px
+                            line-height: 100px
+                            left: 20%
+                            strong
+                                font-size: 16px
+                                left: 0%
+                @media only screen and (max-width: 333px)
+                    margin-top: -20%
+                    .date
+                        width: 70px
+                        height: 70px
+                        span
+                            font-size: 50px
+                            line-height: 70px
+                            left: 12%
+                            strong
+                                font-size: 12px
+                                left: 4%
+
+            .superbowl-hoodies
+                width: 100%
+                height: 40%
+                // background-color: purple
+                @media only screen and (max-width: 333px)
+                    margin-top: 20%
+                .hoodies
+                    width: calc(100% - 10%)
+                    height: 44%
+                    padding-right: 10%
+                    padding-top: 5%
+                    padding-bottom: 4%
+                    .hoodie-1, .hoodie-2
+                        clip-path: polygon(17% 0, 100% 0, 83% 100%, 0 100%)
+                        background-color: transparentize(pink, $amount)
+                        margin-right: 0
+                        width: 30%
+                        height: 100px
+                        display: inline-block
+                        float: right
+                    .hoodie-1
+                        background:
+                            image: url('../images/hoodie-1.jpg')
+                            repeat: no-repeat
+                            position: center
+                            size: cover
+                    .hoodie-2
+                        background:
+                            image: url('../images/hoodie-2.jpg')
+                            repeat: no-repeat
+                            position: center
+                            size: cover
+                    @media only screen and (max-width: 699px)
+                        height: 40%
+                        .hoodie-1, .hoodie-2
+                            width: 44%
+                            height: 80px
+                    @media only screen and (max-width: 450px)
+                        width: 300px
+                        margin-left: -60%
+                        .hoodie-1, .hoodie-2
+                            // width: 150px
+                            height: 70px
+                    @media only screen and (max-width: 333px)
+                        width: 255px
+                    @media only screen and (max-width: 285px)
+                        width: 215px
+
+
+                .hoodies-readmore
+                    width: calc(100% - 16%)
+                    height: 40%
+
+                    .readmore
+                        color: white
+                        text-align: right
+                        font-size: 20px
+                        strong
+                            font-family: 'MyriadProBoldItalic'
+                            display: block
+                        span
+                            font-size: 15px
+                            display: block
+                            color: #c5c0c2
+                            font-style: italic
+                            &:hover
+                                cursor: pointer
+                                text-decoration: underline
+
+                    @media only screen and (max-width: 450px)
+                        margin-left: -50%
+                        width: 100%
+                    @media only screen and (max-width: 333px)
+                        margin-left: -40%
+
+.block-7
+    margin-top: -6%
+    // height: 100%
+    background-color: white
+    position: relative
+    .blocker-bottom
+        position: absolute
+        bottom: -200px
+        right: 0
+        width: 0
+        height: 0
+        z-index: 1
+        border: 10px solid transparent
+        border-top: 200px solid rgb(255, 255, 255)
+        border-right: 3348px solid rgba(234, 142, 112, 0)
+        border-left: 0px solid rgba(59, 152, 65, 0.56)
+        border-bottom: 0px solid #c15757
+
+    .left-panel
+        width: 40%
+        height: 100%
+        // float: left
+        position: absolute
+        top: 0px
+        // background-color: transparentize(pink, $amount)
+        .learn-more
+            width: calc(100% - 20%)
+            // background-color: transparentize(pink, $amount)
+            position: absolute
+            top: 40%
+            left: 10%
+            @media only screen and (max-width: 464px)
+                top: 30%
+
+            .learn-block
+                color: black
+                span
+                    display: block
+                    font-size: 19px
+                    color: #a2a2a2
+                    font-weight: 300
+                    margin-bottom: 1%
+
+                strong
+                    display: block
+                    font-size: 32px
+                    font-family: 'MyriadProBold'
+                    margin-bottom: 5%
+
+                button
+                    border: none
+                    background-color: #534F4F
+                    border-radius: 5px
+                    color: white
+                    padding: 15px 20px
+                    font-family: 'MyriadProRegular'
+                    &:hover
+                        cursor: pointer
+                        background-color: #5e5b5b
+
+                @media only screen and (max-width: 665px)
+                    span
+                        font-size: 15px
+                    strong
+                        font-size: 24px
+                @media only screen and (max-width: 464px)
+                    span
+                        font-size: 12px
+                    strong
+                        font-size: 20px
+
+    .right-panel
+        width: 60%
+        height: 100%
+        // float: right
+        position: absolute
+        top: 0px
+        right: 0px
+        // background-color: transparentize(green, $amount)
+        .top-boot
+            width: 66%
+            height: 340px
+            position: absolute
+            top: -50px
+            left: 10px
+            // background-color: transparentize(pink, $amount)
+            background:
+                image: url('../images/nike-shoe-1-remastered.png')
+                repeat: no-repeat
+                position: center
+                size: contain
+            z-index: 100
+
+        .bottom-boot
+            width: 66%
+            height: 340px
+            position: absolute
+            bottom: -150px
+            left: 10px
+            // background-color: transparentize(green, $amount)
+            // transform: rotateX(180deg)
+            transform: scale(-1, -1)
+            // filter: FlipH
+            background:
+                image: url('../images/nike-shoe-1-remastered.png')
+                repeat: no-repeat
+                position: bottom
+                size: contain
+            z-index: 100
+
+
+.block-8
+    height: 100%
+    position: relative
+    // background-color: transparentize(gray, $amount)
+    .left-panel
+        width: 50%
+        height: 100%
+        float: left
+        position: relative
+        .nike-bg
+            width: 100%
+            height: 110%
+            background:
+                image: url('../images/gold-collection.jpg')
+                repeat: no-repeat
+                size: cover
+                position: center
+            // background-color: transparentize(pink, $amount)
+            .gold-title
+                width: calc(100% - 20%)
+                // background-color: pink
+                color: white
+                position: absolute
+                top: 40%
+                left: 10%
+                h3
+                    font-family: Lato
+                    font-weight: 300
+                    font-size: 15px
+                    margin-bottom: 1%
+                    i
+                        font-style: normal
+                        color: #C7B892
+                span
+                    display: block
+                    font-size: 35px
+                    font-family: 'MyriadProBold'
+                    margin-bottom: 1%
+                    i
+                        font-style: normal
+                        color: #C7B892
+                strong
+                    font-size: 14px
+                    i
+                        display: inline-block
+                        margin-right: 10px
+                        float: left
+                        width: 20px
+                        height: 20px
+                        background:
+                            image: url('../images/twitter.png')
+                            repeat: no-repeat
+                            size: contain
+                            position: center
+                @media only screen and (max-width: 1227px)
+                    span
+                        font-size: 27px
+                @media only screen and (max-width: 506px)
+                    span
+                        font-size: 20px
+
+    .right-panel
+        width: 50%
+        height: 104%
+        float: right
+        background-color: black
+        // background-color: transparentize(green, $amount)
+        .shopping-block
+            width: 100%
+            height: 100%
+            position: relative
+            .shop-title
+                width: 80%
+                position: absolute
+                top: 30%
+                left: 10%
+                color: white
+                // background-color: green
+                h3
+                    font-family: Lato
+                    font-weight: 900
+                    font-size: 18px
+                    margin-bottom: 1%
+                    text-align: center
+                    color: #383938
+                span
+                    display: block
+                    font-size: 35px
+                    font-family: 'MyriadProBold'
+                    margin-bottom: 1%
+                    text-align: center
+                button
+                    display: block
+                    margin: 0 auto
+                    margin-top: 20px
+                    border: none
+                    background-color: #534F4F
+                    border-radius: 5px
+                    color: white
+                    padding: 15px 20px
+                    font-family: 'MyriadProRegular'
+                    &:hover
+                        cursor: pointer
+                        background-color: #5e5b5b
+
+                @media only screen and (max-width: 1227px)
+                    span
+                        font-size: 27px
+                @media only screen and (max-width: 506px)
+                    span
+                        font-size: 20px
+
+.block-9
+    height: 100%
+    background:
+        image: url('../images/block-9.jpg')
+        repeat: no-repeat
+        position: top
+        size: cover
+    clip-path: polygon(0 12%, 100% 0, 100% 100%, 0% 100%)
+    margin-top: -6%
+    position: relative
+
+    .block-9-bg
+        width: 300%
+        margin-left: -100%
+        height: 100%
+        box-shadow: inset 0px -200px 500px 50px black
+    .last-title
+        width: 40%
+        height: 30%
+        position: absolute
+        top: 30%
+        left: 30%
+        color: rgba(255, 255, 255, 0.41)
+        p:last-of-type
+            text-align-last: justify
+        @media only screen and (max-width: 1190px)
+            width: 60%
+            left: 20%
+        @media only screen and (max-width: 733px)
+            width: 80%
+            left: 10%
+            font-size: 13px
+        @media only screen and (max-width: 398px)
+            font-size: 11px
+        @media only screen and (max-width: 279px)
+            font-size: 9px
+
+    .last-photos
+        width: 100%
+        height: 30%
+        position: absolute
+        bottom: 50px
+        left: 0
+        display: flex
+        justify-content: center
+        // background-color: transparentize(pink, $amount)
+        .photo-1, .photo-2, .photo-3
+            width: 200px
+            height: 80px
+            display: inline-block
+            i
+                display: block
+                width: inherit
+                height: inherit
+                clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%)
+                // background-color: orange
+            @media only screen and (max-width: 575px)
+                width: 170px
+                height: 60px
+            @media only screen and (max-width: 476px)
+                width: 134px
+            @media only screen and (max-width: 398px)
+                width: 100px
+
+        .photo-1
+            margin-top: 3%
+            i
+                background:
+                    image: url('../images/last-block-1.jpg')
+                    repeat: no-repeat
+                    position: center
+                    size: cover
+        .photo-2
+            margin: 0 2%
+            margin-top: 1%
+            i
+                background:
+                    image: url('../images/last-block-2.jpg')
+                    repeat: no-repeat
+                    position: center
+                    size: cover
+            @media only screen and (max-width: 700px)
+                margin: 0 -4%
+                margin-top: 1%
+
+        .photo-3
+            margin-top: -1%
+            i
+                background:
+                    image: url('../images/last-block-3.jpg')
+                    repeat: no-repeat
+                    position: center
+                    size: cover
+
+
+    .nike-logo-footer
+        width: 100px
+        height: 100px
+        position: absolute
+        bottom: 0
+        left: calc(50% - 50px)
+        background:
+            image: url('../images/nike-logo.png')
+            repeat: no-repeat
+            position: center
+            size: contain
