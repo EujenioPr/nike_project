@@ -651,7 +651,7 @@ h1, h2, h3, h4, h5, p, a {
           display: block;
           margin-bottom: 1%;
           font-size: 35px;
-          font-family: Lato, "MyriadProRegular";
+          font-family: "MyriadProBold";
           font-weight: 300; }
           .block-6 .nike-superbowl .left-panel .superbowl-title span:nth-of-type(2) {
             font-size: 26px; }
@@ -698,7 +698,7 @@ h1, h2, h3, h4, h5, p, a {
             display: block;
             color: rgba(255, 255, 255, 0.3);
             font-size: 100px;
-            font-family: Lato;
+            font-family: "MyriadProBold";
             font-weight: 300;
             line-height: 150px;
             position: relative;
